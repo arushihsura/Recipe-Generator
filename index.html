@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Recipe Book</h1>
+            <form>
+                <div class="search-container">
+                    <input type="text" placeholder="Search for delicious recipes..." class="searchBox" id="searchBox"/>
+                    <button type="submit" class="searchBtn" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="floating">Discover Amazing Recipes</h2>
+                <p>Explore thousands of delicious recipes from around the world. From quick weeknight dinners to elaborate weekend feasts, find your next culinary adventure here.</p>
+                
+                <div class="hero-features">
+                    <div class="feature-card">
+                        <i class="fas fa-search"></i>
+                        <h3>Easy Search</h3>
+                        <p>Find recipes by ingredient, cuisine, or dish name with our powerful search engine.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Detailed Instructions</h3>
+                        <p>Step-by-step cooking instructions with ingredient lists for perfect results every time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Global Cuisine</h3>
+                        <p>Discover authentic recipes from different cultures and expand your culinary horizons.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="recipe-container">
+                <h2>Start by searching for your favorite dish above</h2>
+            </div>
+            <div class="recipe-details">
+                <button type="button" class="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="recipe-details-content">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
